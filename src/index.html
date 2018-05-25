@@ -6,6 +6,24 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+	<!--titulo -->
+	<section>
+		<h1>Cifrado Cesar</h1>
+		<h3>Desciframos o Ciframos un texto para ti ;D</h3>
+		<!--para codificar -->
+		<div id="codi">
+			<p>Ingresa el texto para "Codificar"</p>
+			<input type="text" id="cifrar">
+			<input type="button" class="btncifrar" name="cifra" value="CODIFICAR" onclick="cifrarOk()">
+			<p id="hi"></p>
+		</div>
+		<!--para decodificar -->
+		<div id="deco">
+			<p>Ingresa el texto para "Decodificar"</p>
+			<input type="text" id="descifrar">
+			<input type="button" class="btndecifrar" name="decifra" value="DECODIFICA" onclick="decoOk()">
+		</div>
+	</section>
 
   <div id="root"></div>
 

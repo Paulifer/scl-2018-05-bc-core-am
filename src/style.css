@@ -1,1 +1,43 @@
 /* Acá va tu código */
+body{
+    background-image: url(img/fondo.jpg);
+
+}
+#cifrar{
+	 border-color: #C1E4DA;
+  border-width: 5px;
+  border-style: groove;
+      height: 50px;
+    width: 250px;
+}
+#codi{
+
+}
+.btncifrar{
+ box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24),0 10px 35px 0 rgba(0,0,0,0.19);
+  background-color: #9BEFEF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+button{
+	 background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
