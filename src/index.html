@@ -22,18 +22,26 @@
 			<p>Ingresa el texto para "Codificar" o "Decodificar"</p>
 			<input type="text" id="boxText" placeholder="Ingrese su texto aquí">
 		</div>
-		<!--Botones para codificar o decodificar -->
-		<div class="botones">
-			<!--Boton para codificar-->
-			<input type="button" id="btnCifrar" value="CODIFICAR"  onclick="cifrarOk()">
-			<!--Boton para decodificar-->
-			<input type="button" id="btnDescifrar" value="DECODIFICA" onclick="decoOk()">
-		</div>
 		<!--Caja para recibir el desplazamiento solo de 1 a 100-->
 		<div >
 			<p>Ingresa el numero de despalazamiento deseado(1 a 100)</p>
 			<input type="text" id="boxNum" placeholder="Ingrese un número">
 		</div>
+
+		<!--Botones para codificar o decodificar -->
+		<div class="botones">
+			<p>Haga click en "Codificar" o "Decodificar"</p>
+			<!--Boton para codificar-->
+			<input type="button" id="btnCifrar" value="CODIFICAR"  onclick="cifrarOk()">
+			<!--Boton para decodificar-->
+			<input type="button" id="btnDescifrar" value="DECODIFICA" onclick="decoOk()">
+		</div>
+		<!--Aquí se imprimira el texto ya modificado-->
+		<p>Aqui va su nuevo texto</p>
+		<div class="boxNewText">
+			
+		</div>
+		
 	</section>
 
   <div id="root"></div>
