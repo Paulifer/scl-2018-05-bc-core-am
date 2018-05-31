@@ -11,7 +11,7 @@ section{
     font-family: arial;
     color: #666666;
      width: 500px;
-    height: 500px;
+    height: 700px;
     margin: 0 auto;
     background-image: url(img/fondo2.jpg);
 }
@@ -66,4 +66,14 @@ ul{
     border-width: 5px;
     border-style: groove;
     height: 20px;
+}
+
+/*div para imprimir texto modificado*/
+.boxNewText{
+     border-color: #C1E4DA;
+    border-width: 5px;
+    border-style: groove;
+    height: 50px;
+    width: 200px;
+    margin: 0 auto;
 }
