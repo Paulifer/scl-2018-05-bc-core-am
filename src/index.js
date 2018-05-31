@@ -1,7 +1,7 @@
 /* Acá va tu código */
 /*aca va dom*/
 
-  window.onload = function() {
+	  window.onload = function() {
 // Botón Codificar
 	   const btnCifrar = document.getElementById('btnCifrar');
 	   btnCifrar.addEventListener("click", function (){
