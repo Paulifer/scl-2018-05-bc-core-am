@@ -8,13 +8,13 @@ Sirve para tener mensajes secretos. Si cifras un texto te devolvera el texto cod
 
 ## Pasos a seguir
 
-1.-Asegurate de tener un editor de texto.
-2.-Hacer "Fork" o "Clonar" el repositorio en tu terminal.
-3.-Ubicarte en la carpeta donde quieres que quede el repositorios.
-4.-Instala en la carpeta del proyecto con el comando `npm
+•1.-Asegurate de tener un editor de texto.
+•2.-Hacer "Fork" o "Clonar" el repositorio en tu terminal.
+•3.-Ubicarte en la carpeta donde quieres que quede el repositorios.
+•4.-Instala en la carpeta del proyecto con el comando `npm
    install`. Esto asume que has instalado [Node.js](https://nodejs.org/) (que
    incluye [npm](https://docs.npmjs.com/)).
-6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
+•5. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
    pruebas unitarias (unit tests) con el comando `npm test`.
 
 
@@ -22,7 +22,7 @@ Sirve para tener mensajes secretos. Si cifras un texto te devolvera el texto cod
 ## Introduccion
 Crea una web que pida, por medio de un input text, una frase al usuario y devuelva el mismo mensaje codificado o decodificado según el algoritmo de Cifrado César con el parámetro de desplazamiento de espacios que el usuario decida.
 
-Por ejemplo:
+
 
 • Texto original: ABCDEFGHIJKLMNOPQRSTUVWXYZ.
 
