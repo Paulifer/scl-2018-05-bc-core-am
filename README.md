@@ -6,6 +6,18 @@ Esta aplicacion te permite cifrar o descifrar un texto ingresando un número de 
 ¿Y para que sirve?
 Sirve para tener mensajes secretos. Si cifras un texto te devolvera el texto codificado y ese se los envias a la persona que quiera indicando el numero de desplazamientos que ocupaste y asi esa persona tambien lo podra leer tal cual es.
 
+## Introduccion
+
+Crea una web que pida, por medio de un input text, una frase al usuario y devuelva el mismo mensaje codificado o decodificado según el algoritmo de Cifrado César con el parámetro de desplazamiento de espacios que el usuario decida.
+
+por ejemplo:
+
+• Texto original: ABCDEFGHIJKLMNOPQRSTUVWXYZ.
+
+• Numero de desplazamientos : 33. 
+
+• Texto codificado: HIJKLMNOPQRSTUVWXYZABCDEFG.
+
 ## Pasos a seguir
 
 •1.-Asegurate de tener un editor de texto.
@@ -22,17 +34,7 @@ Sirve para tener mensajes secretos. Si cifras un texto te devolvera el texto cod
    pruebas unitarias (unit tests) con el comando `npm test`.
 
 
-
-## Introduccion
-Crea una web que pida, por medio de un input text, una frase al usuario y devuelva el mismo mensaje codificado o decodificado según el algoritmo de Cifrado César con el parámetro de desplazamiento de espacios que el usuario decida.
-
-
-
-• Texto original: ABCDEFGHIJKLMNOPQRSTUVWXYZ.
-
-• Numero de desplazamientos : 33. 
-
-• Texto codificado: HIJKLMNOPQRSTUVWXYZABCDEFG.
+## Solucionario
 
 Para poder resolver el problema se utilizará:
 
@@ -44,8 +46,6 @@ formula para descifrar: (x + n) % 26
 
 formula para cifrar: (x - 65 + n)%26 + 65
 
-Pseudocodigo
-Inicio
 
 Escribir un texto a codificar o decofificar en el input text, luego llamandolo con DOM a app.js y cipher.js.
 
