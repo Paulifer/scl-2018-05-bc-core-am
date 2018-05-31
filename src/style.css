@@ -3,19 +3,35 @@ body{
     background-image: url(img/fondo.jpg);
 
 }
-#cifrar{
-	 border-color: #C1E4DA;
-  border-width: 5px;
-  border-style: groove;
-      height: 50px;
+/*sección cifrado cesar*/
+section{
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: arial;
+    color: #666666;
+     width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url(img/fondo2.jpg);
+}
+/*Caja contenedora del texto para modificar*/
+#boxText{
+    border-color: #C1E4DA;
+    border-width: 5px;
+    border-style: groove;
+    height: 50px;
     width: 250px;
 }
-#codi{
-
+/*Lista de las Instrucciones al usuario*/
+ul{
+    font:  oblique bold 80% cursive;
 }
-.btncifrar{
- box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24),0 10px 35px 0 rgba(0,0,0,0.19);
-  background-color: #9BEFEF;
+
+/*Boton para cifrar*/
+#btnCifrar{
+    box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24),0 10px 35px 0 rgba(0,0,0,0.19);
+    background-color: #9BEFEF;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -27,8 +43,11 @@ body{
     cursor: pointer;
     
 }
-button{
-	 background-color: #4CAF50; /* Green */
+
+/*Boton para descifar*/
+#btnDescifrar{
+    box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24),0 10px 35px 0 rgba(0,0,0,0.19);
+    background-color: #9BEFEF;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -38,6 +57,13 @@ button{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+    
+}
+
+/*Caja para ingresar el numero de desplazamientos*/
+#boxNum{
+    border-color: #C1E4DA;
+    border-width: 5px;
+    border-style: groove;
+    height: 20px;
 }
