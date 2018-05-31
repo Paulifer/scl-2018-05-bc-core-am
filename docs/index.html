@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<!--titulo -->
+	<section>
+		<h1>Cifrado Cesar</h1>
+		<h3>Desciframos o Ciframos un texto para ti ;D</h3>
+		<!--Instrucciones para el usuario
+		-->
+		<ul>Ingrese texto a "Cifrar" o "Descifrar"</ul>
+		<ul>Indique el numero de desplazamientos deseados del 1 a 100</ul>
+		<ul> aprete boton decoficar o codificar</ul>
+		<ul>Por ultimo le saldra su texto deseado</ul>
+		<!--Caja para ingresar el texto a codificar o decodificar -->
+		<div >
+			<p>Ingresa el texto para "Codificar" o "Decodificar"</p>
+			<input type="text" id="boxText" placeholder="Ingrese su texto aquí">
+		</div>
+		<!--Caja para recibir el desplazamiento solo de 1 a 100-->
+		<div >
+			<p>Ingresa el numero de despalazamiento deseado(1 a 100)</p>
+			<input type="number" id="boxNum" placeholder="Ingrese un número">
+		</div>
+
+		<!--Botones para codificar o decodificar -->
+		<div class="botones">
+			<p>Haga click en "Codificar" o "Decodificar"</p>
+			<!--Boton para codificar-->
+			<input type="button" id="btnCifrar" value="CODIFICAR"  >
+			<!--Boton para decodificar-->
+			<input type="button" id="btnDescifrar" value="DECODIFICA">
+		</div>
+		<!--Aquí se imprimira el texto ya modificado-->
+		<p>Aqui va su nuevo texto</p>
+		<div id="boxNewText">
+			
+		</div>
+		
+	</section>
+
+  <div id="root"></div>
+
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
