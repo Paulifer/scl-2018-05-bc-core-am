@@ -69,7 +69,7 @@ ul{
 }
 
 /*div para imprimir texto modificado*/
-.boxNewText{
+#boxNewText{
      border-color: #C1E4DA;
     border-width: 5px;
     border-style: groove;
