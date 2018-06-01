@@ -38,7 +38,7 @@ por ejemplo:
 
 Para poder resolver el problema se utilizará:
 
-charCodeAt(); te da un numero en cod. ASCII
+charCodeAt(); te da el indice del caractér .
 
 String.fromCharCode(); te devuelve la letra desde el cod ASCII
 
